@@ -46,3 +46,4 @@ skinpack.%SkinPackName%=%SkinPackName%
 '
 
 To generate UUIDs you can use "UUIDs-Generator.bat".
+Better change UUIDs with every update.

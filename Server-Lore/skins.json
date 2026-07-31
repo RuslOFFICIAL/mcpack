@@ -2,7 +2,7 @@
 	"skins":[{
 		"localization_name":"ie550vxs-Null",
 		"geometry":"geometry.Server-Lore.ie550vxs-Null",
-		"texture":"ie550vxs-Null.png",
+		"texture":"ie550vxs-null.png",
 		"type":"free"
 	},{
 		"localization_name":"Rusl",
