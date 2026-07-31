@@ -63,7 +63,7 @@ if exist "%TempZip%" del "%TempZip%"
 if exist "%OutputFile%" del "%OutputFile%"
 
 REM Compress to a temporary .zip file.
-powershell -Command "Compress-Archive -Path '%Target%' -DestinationPath '%TempZip%' -CompressionLevel Optimal"
+powershell -Command "Compress-Archive -Path '%Target%\*' -DestinationPath '%TempZip%' -CompressionLevel Optimal"
 
 REM Rename the ".zip" file to ".mcpack".
 if exist "%TempZip%" (
