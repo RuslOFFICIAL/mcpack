@@ -12,9 +12,11 @@ set "Count=0"
 REM Loop through all directories in the current path, excluding "mcpack".
 for /d %%D in (*) do (
 	if /i not "%%D"=="mcpack" (
-		set /a Count+=1
-		set "folder[!Count!]=%%D"
-		echo  [!Count!] %%D
+		if /i not "%%D"=="example" (
+			set /a Count+=1
+			set "folder[!Count!]=%%D"
+			echo [!Count!] %%D
+		)
 	)
 )
 

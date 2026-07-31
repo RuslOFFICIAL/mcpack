@@ -1,5 +1,10 @@
 {
 	"skins":[{
+		"localization_name":"ie550vxs-Null",
+		"geometry":"geometry.Server-Lore.ie550vxs-Null",
+		"texture":"ie550vxs-Null.png",
+		"type":"free"
+	},{
 		"localization_name":"Rusl",
 		"geometry":"geometry.Server-Lore.Rusl",
 		"texture":"rusl.png",
@@ -12,6 +17,11 @@
 	},
 	
 	{
+		"localization_name":"ie550vxs",
+		"geometry":"geometry.Server-Lore.ie550vxs",
+		"texture":"ie550vxs.png",
+		"type":"free"
+	},{
 		"localization_name":"Robot-R",
 		"geometry":"geometry.Server-Lore.Robot-R",
 		"texture":"robot-r.png",
