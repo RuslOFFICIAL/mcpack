@@ -1,0 +1,48 @@
+{
+	"skins":[{
+		"localization_name":"Rusl",
+		"geometry":"geometry.Server-Lore.Rusl",
+		"texture":"rusl.png",
+		"type":"free"
+	},{
+		"localization_name":"Katy",
+		"geometry":"geometry.Server-Lore.Katy",
+		"texture":"katy.png",
+		"type":"free"
+	},
+	
+	{
+		"localization_name":"Robot-R",
+		"geometry":"geometry.Server-Lore.Robot-R",
+		"texture":"robot-r.png",
+		"type":"free"
+	},{
+		"localization_name":"Katy-Hat",
+		"geometry":"geometry.Server-Lore.Katy-Hat",
+		"texture":"katy-hat.png",
+		"type":"free"
+	},{
+		"localization_name":"Katy-Jail",
+		"geometry":"geometry.Server-Lore.Katy-Jail",
+		"texture":"katy-jail.png",
+		"type":"free"
+	},{
+		"localization_name":"Katy-Office",
+		"geometry":"geometry.Server-Lore.Katy-Office",
+		"texture":"katy-office.png",
+		"type":"free"
+	},{
+		"localization_name":"Glipish",
+		"geometry":"geometry.Server-Lore.Glipish",
+		"texture":"glipish.png",
+		"type":"free"
+	},{
+		"localization_name":"Vitalik",
+		"geometry":"geometry.Server-Lore.Vitalik",
+		"texture":"vitalik.png",
+		"type":"free"
+	}],
+	
+	"serialize_name":"Server-Lore",
+	"localization_name":"Server-Lore"
+}

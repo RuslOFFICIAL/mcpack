@@ -1,0 +1,13 @@
+{
+	"format_version":1,
+	"header":{
+		"name":"Server-Lore",
+		"uuid":"28fc4001-fb7f-4897-a196-5a32bbe39677",
+		"version":[2,0,0]
+	},
+	"modules":[{
+		"type":"skin_pack",
+		"uuid":"f1ff5bfb-4676-4bee-abe4-bd7575115c92",
+		"version":[2,0,0]
+	}]
+}
