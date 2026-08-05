@@ -2,12 +2,12 @@
 	"format_version":1,
 	"header":{
 		"name":"Server-Lore",
-		"uuid":"71940e6f-61f3-471a-ae54-8c31a5612362",
-		"version":[3,1,0]
+		"uuid":"9718f18f-b1e4-409e-b690-c3f418b98e1e",
+		"version":[4,0,0]
 	},
 	"modules":[{
 		"type":"skin_pack",
-		"uuid":"6592bb3b-e60e-4084-9515-aa0c5dba711d",
-		"version":[3,1,0]
+		"uuid":"007b4a7b-1127-4405-8afa-5b6504b4da27",
+		"version":[4,0,0]
 	}]
 }

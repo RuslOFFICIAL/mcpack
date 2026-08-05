@@ -51,6 +51,11 @@
 		"geometry":"geometry.Server-Lore.Vitalik",
 		"texture":"vitalik.png",
 		"type":"free"
+	},{
+		"localization_name":"Yabko",
+		"geometry":"geometry.Server-Lore.Yabko",
+		"texture":"yabko.png",
+		"type":"free"
 	}],
 	
 	"serialize_name":"Server-Lore",
