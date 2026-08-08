@@ -10,9 +10,9 @@ echo Generating UUIDs. Please wait...
 	echo.
 	echo Modules UUID:
 	powershell -NoProfile -Command "(New-Guid).Guid"
-) > UUIDs-Generated.txt
+) > UUIDs-Generated.md
 
 REM End.
 endlocal
-echo.& echo UUIDs saved in "UUID-Generated.txt"& echo Done!
+echo.& echo UUIDs saved in "UUIDs-Generated.md"& echo Done!
 pause

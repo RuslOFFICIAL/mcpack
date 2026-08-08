@@ -41,7 +41,9 @@
 		"geometry":"geometry.Server-Lore.Katy-Office",
 		"texture":"katy-office.png",
 		"type":"free"
-	},{
+	},
+	
+	{
 		"localization_name":"Glipish",
 		"geometry":"geometry.Server-Lore.Glipish",
 		"texture":"glipish.png",
@@ -50,6 +52,11 @@
 		"localization_name":"Vitalik",
 		"geometry":"geometry.Server-Lore.Vitalik",
 		"texture":"vitalik.png",
+		"type":"free"
+	},{
+		"localization_name":"Mister-Eyeglasses",
+		"geometry":"geometry.Server-Lore.Mister-Eyeglasses",
+		"texture":"mister-eyeglasses.png",
 		"type":"free"
 	},{
 		"localization_name":"Yabko",
