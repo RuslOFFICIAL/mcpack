@@ -3,7 +3,6 @@
 !example/**
 
 # Files.
-
 *.mcpack
 *.zip
 *.lnk
