@@ -1,10 +1,11 @@
 # Folders.
-mcpack/
+/*
+!example/*
 
 # Files.
+
 *.mcpack
 *.zip
-
 *.lnk
 
 UUIDs-Generated.md
