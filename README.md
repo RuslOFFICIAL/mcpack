@@ -1,4 +1,4 @@
-Skin Packs for Minecraft Bedrock.
+Utility to make Skin Packs for Minecraft.
 
 Please read "README.md" as a file, not preview, for better experience.
 In files remove >'< so it may work.
