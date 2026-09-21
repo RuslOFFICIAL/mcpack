@@ -6,7 +6,7 @@
 		"type":"free"
 	},{
 		"localization_name":"notch",
-		"geometry":"geometry.Server-Lore.notch",
+		"geometry":"geometry.example.notch",
 		"texture":"notch.png",
 		"type":"free"
 	}],
