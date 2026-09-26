@@ -15,4 +15,4 @@ echo Generating UUIDs. Please wait...
 REM End.
 endlocal
 echo.& echo UUIDs saved in "UUIDs-Generated.md"& echo Done!
-pause
+pause& exit

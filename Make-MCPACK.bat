@@ -76,4 +76,4 @@ if exist "%TempZip%" (
 :End
 endlocal
 echo.& echo Done!
-pause
+pause& exit
