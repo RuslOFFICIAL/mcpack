@@ -1,6 +1,7 @@
 # Folders.
 */
 !example/**
+!Server-Lore/**
 
 # Files.
 *.mcpack
