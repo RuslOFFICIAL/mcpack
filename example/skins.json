@@ -1,0 +1,16 @@
+{
+	"skins":[{
+		"localization_name":"herobrine",
+		"geometry":"geometry.example.herobrine",
+		"texture":"herobrine.png",
+		"type":"free"
+	},{
+		"localization_name":"notch",
+		"geometry":"geometry.example.notch",
+		"texture":"notch.png",
+		"type":"free"
+	}],
+	
+	"serialize_name":"example",
+	"localization_name":"example"
+}
