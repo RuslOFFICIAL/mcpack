@@ -3,7 +3,7 @@ cd /d "%~dp0"
 setlocal enabledelayedexpansion
 
 REM Variables.
-set "Version=1.0.0"
+set "Version=1.0.1"
 
 echo Make-MCPACK %Version%& echo.
 echo Available folders:
