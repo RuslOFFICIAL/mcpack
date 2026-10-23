@@ -1,16 +1,16 @@
 {
-	"skins":[{
-		"localization_name":"herobrine",
-		"geometry":"geometry.example.herobrine",
-		"texture":"herobrine.png",
-		"type":"free"
-	},{
-		"localization_name":"notch",
-		"geometry":"geometry.example.notch",
-		"texture":"notch.png",
-		"type":"free"
-	}],
+	"serialize_name": "example",
+	"localization_name": "example",
 	
-	"serialize_name":"example",
-	"localization_name":"example"
+	"skins": [{
+		"localization_name": "Herobrine",
+		"geometry": "geometry.humanoid.custom",
+		"texture": "herobrine.png",
+		"type": "free"
+	},{
+		"localization_name": "Notch",
+		"geometry": "geometry.humanoid.custom",
+		"texture": "notch.png",
+		"type": "free"
+	}]
 }

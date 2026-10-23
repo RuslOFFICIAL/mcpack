@@ -9,16 +9,16 @@ For your own .mcpack Skin Pack file, you would need in the Skin Pack folder:
 1. "manifest.json" with
 '
 {
-	"format_version":1,
-	"header":{
-		"name":"%SkinPackName%,
-		"uuid":"LongUUIDForHeader-TryToGetIt",
-		"version":[1,0,0]
+	"format_version": 2,
+	"header": {
+		"name": "%SkinPackName%,
+		"uuid": "LongUUIDForHeader-TryToGetIt",
+		"version": [1, 0, 0]
 	},
-	"modules":[{
-	"type":"skin_pack",
-	"uuid":"LongUUIDForModules-TryToGetIt",
-	"version:[1,0,0]
+	"modules": [{
+	"type": "skin_pack",
+	"uuid": "LongUUIDForModules-TryToGetIt",
+	"version: [1, 0, 0]
 	}]
 }
 '
@@ -26,23 +26,24 @@ For your own .mcpack Skin Pack file, you would need in the Skin Pack folder:
 2. "skins.json" with:
 '
 {
-	"skins":[{
+	"skins": [{
 	
-	"localization_name":"%SkinName%",
-	"geometry":"geometry.%SkinPackName%.%SkinName%",
-	"texture":"%SkinFileName%.png",
-	"type":"free"}],
+	"localization_name": "%SkinName%",
+	"geometry": "geometry.humanoid.%Variation%",
+	"texture": "%SkinFileName%.png",
+	"type": "free"}],
 	
-	"serialize_name":"%SkinPackName%",
-	"localization_name":"%SkinPackName%"
+	"serialize_name": "%SkinPackName%",
+	"localization_name": "%SkinPackName%"
 }
 '
+%Varation% can be either: "custom", "customSlim"
 	
 3. "en_US.lang" in "texts" folder with:
 '
 skinpack.%SkinPackName%=%SkinPackName%
 	
-	skin.%SkinPackName%.%SkinGeometryFrom-skins.json-without-geometry.%=%SkinName%
+	skin.%SkinPackName%.%SkinLocalizationName%=%SkinName%
 '
 
 To generate UUIDs you can use "UUIDs-Generator.bat".
