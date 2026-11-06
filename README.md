@@ -4,7 +4,7 @@ Please read "README.md" as a file, not preview, for better experience.
 In files remove >'< so it may work.
 
 Take for an example the "example" folder.
-For your own .mcpack Skin Pack file, you would need in the Skin Pack folder:
+For own .mcpack Skin Pack file, there have to be in the Skin Pack folder:
 
 1. "manifest.json" with
 '
@@ -46,5 +46,5 @@ skinpack.%SkinPackName%=%SkinPackName%
 	skin.%SkinPackName%.%SkinLocalizationName%=%SkinName%
 '
 
-To generate UUIDs you can use "UUIDs-Generator.bat".
+To generate UUIDs, use "UUIDs-Generator.bat".
 Better change UUIDs with every update.

@@ -26,7 +26,7 @@ if %Count%==0 (
 )
 
 echo.
-set /p "Choice=Enter the number of the folder you want to pack: "
+set /p "Choice=Enter the number of the folder to pack: "
 
 REM Validate the choice.
 if not defined folder[%Choice%] (
