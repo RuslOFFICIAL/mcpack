@@ -3,10 +3,14 @@
 # Folders.
 !/example/
 !/example/**
+!/scripts/
+!/scripts/**
+!/configs/
+!/configs/**
 
 # Files.
 *.mcpack
 *.zip
 *.lnk
 
-UUIDs-Generated.md
+configs/UUIDs-Generated.md
