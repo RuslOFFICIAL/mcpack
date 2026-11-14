@@ -5,6 +5,8 @@ setlocal enabledelayedexpansion
 REM Variables.
 set "VariablesFileName=Variables.conf"
 set "VariablesFile=..\configs\%VariablesFileName%"
+set "TargetFileName=UUIDs-Generated.md"
+set "TargetFile=..\configs\%TargetFileName%"
 
 REM Configs.
 if exist "%VariablesFile%" (
@@ -22,6 +24,8 @@ if /i not "%Confirmation%"=="Y" (
 	pause & exit /b
 )
 
+if not exist "..\configs" mkdir "..\configs"
+
 REM Generate UUID and save in file.
 echo Generating UUIDs. Please wait...
 (
@@ -30,10 +34,10 @@ echo Generating UUIDs. Please wait...
 	echo.
 	echo Modules UUID:
 	powershell -NoProfile -Command "(New-Guid).Guid"
-) > ..\configs\UUIDs-Generated.md
+) > "%TargetFile%"
 
 REM Convert line endings from CRLF to LF.
-powershell -NoProfile -Command "$c = [System.IO.File]::ReadAllText('..\configs\UUIDs-Generated.md'); [System.IO.File]::WriteAllText('UUIDs-Generated.md', $c.Replace([string][char]13 + [string][char]10, [string][char]10), [System.Text.Encoding]::UTF8)"
+powershell -NoProfile -Command "$path = '%TargetFile%'; $c = [System.IO.File]::ReadAllText($path); $utf8NoBOM = New-Object System.Text.UTF8Encoding $false; [System.IO.File]::WriteAllText($path, $c.Replace([string][char]13 + [string][char]10, [string][char]10), $utf8NoBOM)"
 
 REM End.
 endlocal
