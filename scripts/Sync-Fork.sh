@@ -24,7 +24,7 @@ while true; do
 	read -r -e -p "Run this script? (Y/N) " confirmation
 	case "$confirmation" in
 		[Yy]* ) echo; break ;;
-		[Nn]* ) echo -e "\nOperation cancelled by user.\n"; read -s -p "Press [Enter] to continue..."; exit 0 ;;
+		[Nn]* ) echo -e "\nOperation cancelled by user.\n"; read -r -s -p "Press [Enter] to continue..."; exit 0 ;;
 		* ) echo -e "Please answer Y or n.\n" ;;
 	esac
 done
@@ -64,4 +64,4 @@ echo -e "\nReturning back to the original branch: $CURRENT_BRANCH..."
 git checkout "$CURRENT_BRANCH"
 
 echo -e "\nSuccess! Fork synced!\n"
-read -s -p "Press [Enter] to continue..." && exit 0
+read -r -s -p "Press [Enter] to continue..." && exit 0

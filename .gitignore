@@ -12,5 +12,6 @@
 *.mcpack
 *.zip
 *.lnk
+tempCodeRunnerFile.*
 
 configs/UUIDs-Generated.md
